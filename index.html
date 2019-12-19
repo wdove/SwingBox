@@ -1,3 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jQuery Swing Box Plugin : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+    <title>jQuery Swing Box Plugin</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/wdove/SwingBox">View on GitHub</a>
+
+          <h1 id="project_title">jQuery Swing Box Plugin</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/wdove/SwingBox/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/wdove/SwingBox/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+	
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Demo</h3>
+		
+		
+
 <div id="swingBox">
     <div>0</div>
     <div>1</div>
@@ -13,3 +51,27 @@
     <div>11</div>
     <div>12</div>
 </div>
+		
+		<h3>Documentation</h3>
+		mutuallyExclusiveCheckBox documentation is available on the <a href="https://github.com/wdove/SwingBox/wiki/Documentation">wiki</a>.
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">jQuery Swing Box Plugin maintained by <a href="https://github.com/wdove">wdove</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="javascripts/swingbox-1.0.0.min.js"></script>
+	<script>
+		$(function() {		
+			$("#swingBox").swingbox();
+		});
+	</script>
+  </body>
+</html>
