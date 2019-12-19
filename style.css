@@ -1,0 +1,14 @@
+#swingBox
+{
+    margin: 10px;
+}
+#swingBox > div
+{
+    border: solid 1px black;
+    cursor: pointer;
+    color: Black;
+}
+#swingBox > div:hover
+{
+    border-color: Red;
+}
